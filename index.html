@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрационное окно</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="nav">
+            <span><a class="btn">SIGN IN</a></span>
+            <span><a class="btn">SIGN UP</a></span>
+        </div>
+        <div class="sign-in">
+            <div class="input-area">
+                <form action="" method="get" class="form-signin">
+                    <div class="form-in form-style">
+                        <label for="name">USERNAME </label>
+                        <input type="text" name="name" id="name" required />
+                    </div>
+                    <div class="form-in form-style">
+                        <label for="email">PASSWORD </label>
+                        <input type="password" name="password" id="password" required />
+                    </div>
+                    <div class="keep-sign">
+                        <input type="checkbox" id="checkbox" />
+                        <label for="checkbox"><span class="ui"></span>Keep me signed in</label>
+                    </div>
+                    <div class="form-in form-style">
+                        <button type="submit"> SIGN IN</button>
+                    </div>
+                </form>
+            </div>
+            <hr>
+            <div class="fogot-area text-[grey] w-[100%] content-center">Forgot your password?</div>
+        </div>
+        <div class="sign-up"></div>
+
+        

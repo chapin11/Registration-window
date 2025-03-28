@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: grid;
+    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    transition-duration: 0.5s;
+}
+
+.wrapper {
+    margin: 150px;
+    background: red;
+    width:350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(86,130,231);
+    background: linear-gradient(137deg, rgba(86,130,231,1) 25%, rgba(49,71,143,1) 94%);
+    color: beige;
+    border-radius:3%;
+    padding: 35px;
+}
+
+.nav a{
+    cursor: pointer;
+    margin-right: 10px;
+    
+}
+
+.nav a:hover{
+    border-bottom: 2px solid blue;
+    border-radius: 10%;
+}
+
+.nav {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.form-style {
+    margin: 10px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.5s;
+}
+
+.form-style input{
+    background:grey;
+    border-radius:100px;
+    border-left:10px solid grey;
+    border-right:10px solid grey;
+    transition-duration: 0.5s;
+}
+
+.form-style input:focus{
+    background:rgb(138, 138, 138);
+    border-color:rgb(138, 138, 138);
+    border-radius:0px;
+    outline:none;
+}
+
+
+input[type="checkbox"]:focus {
+    outline: max(2px, 0.15em) solid currentColor;
+    outline-offset: max(2px, 0.15em);
+    transition-duration: 0.5s;
+  }
+
+hr {
+    color:grey;
+}
+
+button {
+    margin: 25px;
+}
